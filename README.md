@@ -148,3 +148,8 @@ def func(var: int) -> bool: #we can declare data type of incoming variables and 
     else:
         return False
 ```
+
+
+## Telegram bots
+@userinfobot - displays info about current user
+@BotFather - bot for creating bots
