@@ -6,5 +6,6 @@ __pycache__
 .cache
 passwd*
 *.json
+*.csv
 dist
 build

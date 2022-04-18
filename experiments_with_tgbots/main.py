@@ -15,4 +15,4 @@ def send_message_with_tg_bot(bot_message: str):
     return response.json()
 
 
-send_message_with_tg_bot("San Francisco, April 6 (Reuters) - Toyota Motor (7203.T) unit Woven Planet has joined Tesla Inc (TSLA.O) in trying to advance self-driving technology without expensive sensors such as lidars.\r\nWoven \u2026 [+2468 chars]")
+send_message_with_tg_bot("sup")
