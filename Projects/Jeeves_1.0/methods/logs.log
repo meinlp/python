@@ -1,0 +1,31 @@
+root → INFO: 
+
+####### Creating an alarm for 2024-09-23 #######
+google.auth.transport.requests → DEBUG: Making request: POST https://oauth2.googleapis.com/token
+urllib3.connectionpool → DEBUG: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+urllib3.connectionpool → DEBUG: https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+googleapiclient.discovery_cache → INFO: file_cache is only supported with oauth2client<4.0.0
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/users/me/calendarList?alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/en-gb.cy%23holiday%40group.v.calendar.google.com/events?timeMin=2024-09-23T04%3A00%3A00Z&timeMax=2024-09-24T00%3A00%3A00Z&singleEvents=true&orderBy=startTime&alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/akaiumov%40gmail.com/events?timeMin=2024-09-23T04%3A00%3A00Z&timeMax=2024-09-24T00%3A00%3A00Z&singleEvents=true&orderBy=startTime&alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/en-gb.russian%23holiday%40group.v.calendar.google.com/events?timeMin=2024-09-23T04%3A00%3A00Z&timeMax=2024-09-24T00%3A00%3A00Z&singleEvents=true&orderBy=startTime&alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/a302oiu3tdsghr34ks0np8v77ijcoqfa%40import.calendar.google.com/events?timeMin=2024-09-23T04%3A00%3A00Z&timeMax=2024-09-24T00%3A00%3A00Z&singleEvents=true&orderBy=startTime&alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/5hkgoaei16lump7rj4l3sk5n6060aiu4%40import.calendar.google.com/events?timeMin=2024-09-23T04%3A00%3A00Z&timeMax=2024-09-24T00%3A00%3A00Z&singleEvents=true&orderBy=startTime&alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://www.googleapis.com/calendar/v3/calendars/v7a9tu8k6i9eh5j6ghojrtsbqf354472%40import.calendar.google.com/events?timeMin=2024-09-23T04%3A00%3A00Z&timeMax=2024-09-24T00%3A00%3A00Z&singleEvents=true&orderBy=startTime&alt=json
+googleapiclient.discovery_cache → INFO: file_cache is only supported with oauth2client<4.0.0
+googleapiclient.discovery → DEBUG: URL being requested: GET https://tasks.googleapis.com/tasks/v1/users/@me/lists?alt=json
+googleapiclient.discovery → DEBUG: URL being requested: GET https://tasks.googleapis.com/tasks/v1/lists/MDIzODQ2NTM0OTE2MjIwNzQxODM6MDow/tasks?showCompleted=false&alt=json
+root → DEBUG: current events and tasks: 
+Calendar Events
+Calendar: Personal Google
+1. Start: 08:00, Duration: 1h00min, Description: Gym
+
+
+Task List:  
+No tasks for tomorrow
+root → INFO: message to generate: Good morning! It looks like you have a pretty straightforward day ahead of you. Your schedule starts with a one-hour gym session at 8:00 AM. After that, you're free to tackle whatever comes your way! 
+
+Now for a fun fact: Did you know that the first recorded use of the word "sport" was in 1300 AD? 
+
+root → INFO: Audio content written to file /private/var/code/personal/python/_Jeeves_1.0/alarm_2024-09-23.mp3
+root → INFO: /private/var/code/personal/python/_Jeeves_1.0/alarm_2024-09-23.mp3 was saved to /Users/akaiumov/Library/CloudStorage/GoogleDrive-akaiumov@gmail.com/My Drive/tech/current_morning_alarm.mp3

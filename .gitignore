@@ -7,6 +7,7 @@ __pycache__
 passwd*
 *.json
 *.csv
+*.mp3
 dist
 build
 app.log

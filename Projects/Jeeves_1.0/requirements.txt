@@ -1,0 +1,10 @@
+google-auth
+google-auth-oauthlib==1.0.0
+google-auth-httplib2
+google-api-python-client
+google-generativeai
+python-dotenv~=1.0.1
+requests~=2.32.3
+python-dateutil~=2.9.0.post0
+openai~=1.37.1
+elevenlabs~=1.6.0
